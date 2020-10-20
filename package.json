@@ -1,0 +1,40 @@
+{
+    "name": "jts-events",
+    "version": "1.0.1",
+    "description": "JavaScript Events的TypeScript封装，提供事件的添加、移除等操作。",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "release": "tsc && npm publish",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/caojianping/jts-events.git"
+    },
+    "keywords": [
+        "addEventListener",
+        "removeEventListener",
+        "attachEvent",
+        "detachEvent",
+        "TypeScript",
+        "JavaScript",
+        "Node.js"
+    ],
+    "author": "caojianping",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/caojianping/jts-events/issues"
+    },
+    "homepage": "https://github.com/caojianping/jts-events#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "typescript": "^3.6.2"
+    },
+    "prettier": {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "singleQuote": true
+    }
+}
